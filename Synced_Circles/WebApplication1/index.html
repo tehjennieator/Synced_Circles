@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <div class="homemidcontainer col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+        <div class="animated-circles panel-body col-lg-12 col-md-12 col-sm-10 text-center center-block" id="midLgCircles">
+            <svg class="" id="regAnimated" viewBox="0 0 200 200" style="vertical-align:middle; max-width:200px; max-height:200px;">
+                <circle cx="100" cy="100" r="90" fill="#1468b2" />
+                <path id="regProgress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M100,20
+								  m0,0
+								  a 70,70 0 0,1 0,160
+								  a 70,70 0 0,1 0,-160">
+                </path>
+                <text id="registerCircTitle" x="100" y="100" text-anchor="middle" dy="5" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="registerCirc1" x="100" y="100" text-anchor="middle" dy="-18" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="registerCirc2" x="100" y="100" text-anchor="middle" dy="-3" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="registerCirc3" x="100" y="100" text-anchor="middle" dy="12" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="registerCirc4" x="100" y="100" text-anchor="middle" dy="27" fill="#f2f2f2" style="font-size:100%; "></text>
+            </svg>
+            <svg class="" id="confirmAnimated" viewBox="0 0 200 200" style="vertical-align:middle; max-width:200px; max-height:200px;">
+                <circle cx="100" cy="100" r="90" fill="#1468b2" />
+                <path id="confirmProgress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M100,20
+								  m0,0
+								  a 70,70 0 0,1 0,160
+								  a 70,70 0 0,1 0,-160">
+                </path>
+                <text id="confirmCircTitle1" x="100" y="100" text-anchor="middle" dy="-5" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="confirmCircTitle2" x="100" y="100" text-anchor="middle" dy="15" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="confirmCirc1" x="100" y="100" text-anchor="middle" dy="-45" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc2" x="100" y="100" text-anchor="middle" dy="-30" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc3" x="100" y="100" text-anchor="middle" dy="-15" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc4" x="100" y="100" text-anchor="middle" dy="0" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc5" x="100" y="100" text-anchor="middle" dy="15" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc6" x="100" y="100" text-anchor="middle" dy="30" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc7" x="100" y="100" text-anchor="middle" dy="45" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc8" x="100" y="100" text-anchor="middle" dy="60" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="confirmCirc9" x="100" y="100" text-anchor="middle" dy="75" fill="#f2f2f2" style="font-size:100%; "></text>
+            </svg>
+            <svg id="questionaireAnimated" viewBox="0 0 200 200" style="vertical-align:middle; max-width:200px; max-height:200px;">
+                <circle cx="100" cy="100" r="90" fill="#1468b2" />
+                <path id="questionaireProgress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M100,20
+								  m0,0
+								  a 70,70 0 0,1 0,160
+								  a 70,70 0 0,1 0,-160">
+                </path>
+                <text id="questionaireCircTitle1" x="100" y="100" text-anchor="middle" dy="-5" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="questionaireCircTitle2" x="100" y="100" text-anchor="middle" dy="15" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="questionaireCirc1" x="100" y="100" text-anchor="middle" dy="-30" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="questionaireCirc2" x="100" y="100" text-anchor="middle" dy="-15" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="questionaireCirc3" x="100" y="100" text-anchor="middle" dy="0" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="questionaireCirc4" x="100" y="100" text-anchor="middle" dy="15" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="questionaireCirc5" x="100" y="100" text-anchor="middle" dy="30" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="questionaireCirc6" x="100" y="100" text-anchor="middle" dy="45" fill="#f2f2f2" style="font-size:100%; "></text>
+            </svg>
+            <svg id="actionAnimated" viewBox="0 0 200 200" style="vertical-align:middle; max-width:200px; max-height:200px;">
+                <circle cx="100" cy="100" r="90" fill="#1468b2" />
+                <path id="actionProgress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M100,20
+								  m0,0
+								  a 70,70 0 0,1 0,160
+								  a 70,70 0 0,1 0,-160">
+                </path>
+                <text id="actionCircTitle1" x="100" y="100" text-anchor="middle" dy="-10" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="actionCircTitle2" x="100" y="100" text-anchor="middle" dy="10" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="actionCircTitle3" x="100" y="100" text-anchor="middle" dy="30" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="actionCirc1" x="100" y="100" text-anchor="middle" dy="-20" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="actionCirc2" x="100" y="100" text-anchor="middle" dy="-5" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="actionCirc3" x="100" y="100" text-anchor="middle" dy="10" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="actionCirc4" x="100" y="100" text-anchor="middle" dy="25" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="actionCirc5" x="100" y="100" text-anchor="middle" dy="40" fill="#f2f2f2" style="font-size:100%; "></text>
+            </svg>
+            <svg class="" id="certAnimated" viewBox="0 0 200 200" style="vertical-align:middle; max-width:200px; max-height:200px;">
+                <circle cx="100" cy="100" r="90" fill="#1468b2" />
+                <path id="certProgress" stroke-linecap="round" stroke-width="5" stroke="#fff" fill="none"
+                      d="M100,20
+								  m0,0
+								  a 70,70 0 0,1 0,160
+								  a 70,70 0 0,1 0,-160">
+                </path>
+                <text id="certCircTitle1" x="100" y="100" text-anchor="middle" dy="-10" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="certCircTitle2" x="100" y="100" text-anchor="middle" dy="10" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="certCircTitle3" x="100" y="100" text-anchor="middle" dy="30" fill="#f2f2f2" style="font-size:150%; font-weight: bold;"></text>
+                <text id="certCirc1" x="100" y="100" text-anchor="middle" dy="-35" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc2" x="100" y="100" text-anchor="middle" dy="-20" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc3" x="100" y="100" text-anchor="middle" dy="-5" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc4" x="100" y="100" text-anchor="middle" dy="10" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc5" x="100" y="100" text-anchor="middle" dy="25" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc6" x="100" y="100" text-anchor="middle" dy="40" fill="#f2f2f2" style="font-size:100%; "></text>
+                <text id="certCirc7" x="100" y="100" text-anchor="middle" dy="55" fill="#f2f2f2" style="font-size:100%; "></text>
+            </svg>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js'></script>
+
+<script type="text/javascript">
+		"use strict"
+		$(document).ready(function () {
+			circleAnimation();
+    });
+
+        // controls animation circles/ text
+        function circleAnimation() {
+            var regAnimated = Snap('#regAnimated');
+            var regProgress = regAnimated.select('#regProgress');
+
+            var confirmAnimated = Snap('#confirmAnimated');
+            var confirmProgress = confirmAnimated.select('#confirmProgress');
+
+            var questionaireAnimated = Snap('#questionaireAnimated');
+            var questionaireProgress = questionaireAnimated.select('#questionaireProgress');
+
+            var actionAnimated = Snap('#actionAnimated');
+            var actionProgress = actionAnimated.select('#actionProgress');
+
+            var certAnimated = Snap('#certAnimated');
+            var certProgress = certAnimated.select('#certProgress');
+
+            //Circle 1: Register
+            function registerMsg() {
+
+                //Circle 1: Register
+                if (regMessages.length == 0) {
+                    $('#registerCircTitle').text(regMessages2.pop()).fadeIn(500).delay(3000);
+                    stageTwo();
+                } else {
+                    $('#registerCircTitle').fadeOut(150);
+
+                    $("#regAnimated").css({ opacity: 1 });
+                    $("#confirmAnimated").css({ opacity: 0.5 });
+                    $("#questionaireAnimated").css({ opacity: 0.5 });
+                    $("#actionAnimated").css({ opacity: 0.5 });
+                    $("#certAnimated").css({ opacity: 0.5 });
+
+                    if (regMessages.length <= 4) {
+                        $('#registerCirc1').text(regMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                        $('#registerCirc2').text(regMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                        $('#registerCirc3').text(regMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                        $('#registerCirc4').text(regMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, registerMsg);
+                    }
+                    if (regMessages.length == 5) {
+                        regProgress.attr({ strokeDasharray: '0, 820' });
+                        Snap.animate(0, 820, function (value) {
+                            regProgress.attr({ 'stroke-dasharray': value + ',820' });
+                        }, 6000);
+                        $('#registerCircTitle').text(regMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, registerMsg);
+
+                    }
+
+                }
+            };
+
+            var regMessages = [
+                "Register",
+                "Create a new ",
+                "account by clicking",
+                "the yellow",
+                "\“Register\” button"
+            ].reverse();
+
+            var regMessages2 = [
+                "Register"
+            ];
+            $('#registerCirc1').hide();
+            $('#registerCirc2').hide();
+            $('#registerCirc3').hide();
+            $('#registerCirc4').hide();
+            registerMsg();
+
+            //Circle 2: Confirm
+            function stageTwo() {
+
+                function confirmMessageAnimate() {
+                    if (confirmMessages.length <= 1) {
+                        $('#confirmCircTitle1').text(confirmMessages.pop()).fadeIn(500).delay(3000);
+                        $('#confirmCircTitle2').text(confirmMessages.pop()).fadeIn(500).delay(3000);
+                        stageThree();
+                    }
+                    else {
+                        $('#confirmCirc').fadeOut(150);
+                        $("#regAnimated").css({ opacity: 0.5 });
+                        $("#confirmAnimated").css({ opacity: 1 });
+                        $("#questionaireAnimated").css({ opacity: 0.5 });
+                        $("#actionAnimated").css({ opacity: 0.5 });
+                        $("#certAnimated").css({ opacity: 0.5 });
+
+                        if (confirmMessages.length <= 8) {
+                            $('#confirmCirc1').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc2').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc3').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc4').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc5').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc6').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc7').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc8').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCirc9').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, confirmMessageAnimate);
+                        }
+                        if (confirmMessages.length == 10) {
+                            confirmProgress.attr({ strokeDasharray: '0, 820' });
+                            Snap.animate(0, 820, function (value) {
+                                confirmProgress.attr({ 'stroke-dasharray': value + ',820' });
+                            }, 6000);
+                            $('#confirmCircTitle1').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#confirmCircTitle2').text(confirmMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, confirmMessageAnimate);
+                        }
+                    }
+                };
+
+                var confirmMessages = [
+                    "Confirm",
+                    "Account",
+                    "Verify",
+                    "your account",
+                    "by clicking the",
+                    "confirmation",
+                    "link sent to",
+                    "the email",
+                    "address you",
+                    "provided"
+                ].reverse();
+
+                var confirmMessages2 = [
+                    "Confirm Account"
+                ];
+
+                $('#confirmCirc1').hide();
+                $('#confirmCirc2').hide();
+                $('#confirmCirc3').hide();
+                $('#confirmCirc4').hide();
+                $('#confirmCirc5').hide();
+                $('#confirmCirc6').hide();
+                $('#confirmCirc7').hide();
+                $('#confirmCirc8').hide();
+                $('#confirmCirc9').hide();
+                $('#confirmCircTitle1').hide();
+                $('#confirmCircTitle2').hide();
+                confirmMessageAnimate();
+            };
+            //Circle 3: Questionnaire
+            function stageThree() {
+                questionaireProgress.attr({ strokeDasharray: '0, 820' });
+                Snap.animate(0, 820, function (value) {
+                    questionaireProgress.attr({ 'stroke-dasharray': value + ',820' });
+                }, 6000);
+
+                function questionaireMessageAnimate() {
+                    if (questionaireMessages.length <= 1) {
+                        $('#questionaireCircTitle1').text(questionaireMessages.pop()).fadeIn(500).delay(3000);
+                        $('#questionaireCircTitle2').text(questionaireMessages.pop()).fadeIn(500).delay(3000);
+                        stageFour();
+                    }
+                    else {
+                        $('#questionaireCirc').fadeOut(150);
+
+                        $("#regAnimated").css({ opacity: 0.5 });
+                        $("#confirmAnimated").css({ opacity: 0.5 });
+                        $("#questionaireAnimated").css({ opacity: 1 });
+                        $("#actionAnimated").css({ opacity: 0.5 });
+                        $("#certAnimated").css({ opacity: 0.5 });
+
+                        if (questionaireMessages.length <= 6) {
+                            $('#questionaireCirc1').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCirc2').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCirc3').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCirc4').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCirc5').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCirc6').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, questionaireMessageAnimate);
+                        }
+                        if (questionaireMessages.length == 8) {
+                            questionaireProgress.attr({ strokeDasharray: '0, 820' });
+                            Snap.animate(0, 820, function (value) {
+                                questionaireProgress.attr({ 'stroke-dasharray': value + ',820' });
+                            }, 6000);
+                            $('#questionaireCircTitle1').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#questionaireCircTitle2').text(questionaireMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, questionaireMessageAnimate);
+                        }
+                    }
+                };
+
+                var questionaireMessages = [
+                    "Take",
+                    "Questionnaire",
+                    "Accept the",
+                    "End User",
+                    "License Agreement,",
+                    "you will be",
+                    "directed to the ",
+                    "questionnaire"
+
+                ].reverse();
+
+                var questionaireMessages2 = [
+                    "Take Questionnaire"
+                ];
+
+                $('#questionaireCirc1').hide();
+                $('#questionaireCirc2').hide();
+                $('#questionaireCirc3').hide();
+                $('#questionaireCirc4').hide();
+                $('#questionaireCirc5').hide();
+                $('#questionaireCirc6').hide();
+                $('#questionaireCircTitle1').hide();
+                $('#questionaireCircTitle2').hide();
+                questionaireMessageAnimate();
+            };
+            //Circle 4: Action Steps
+            function stageFour() {
+                actionProgress.attr({ strokeDasharray: '0, 820' });
+                Snap.animate(0, 820, function (value) {
+                    actionProgress.attr({ 'stroke-dasharray': value + ',820' });
+                }, 6000);
+
+                function actionMessageAnimate() {
+                    if (actionMessages.length <= 1) {
+                        $('#actionCircTitle1').text(actionMessages.pop()).fadeIn(500).delay(3000);
+                        $('#actionCircTitle2').text(actionMessages.pop()).fadeIn(500).delay(3000);
+                        $('#actionCircTitle3').text(actionMessages.pop()).fadeIn(500).delay(3000);
+                        stageFive();
+                    }
+                    else {
+                        $('#actionCirc').fadeOut(150);
+
+                        $("#regAnimated").css({ opacity: 0.5 });
+                        $("#confirmAnimated").css({ opacity: 0.5 });
+                        $("#questionaireAnimated").css({ opacity: 0.5 });
+                        $("#actionAnimated").css({ opacity: 1 });
+                        $("#certAnimated").css({ opacity: 0.5 });
+                        if (actionMessages.length <= 5) {
+                            $('#actionCirc1').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCirc2').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCirc3').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCirc4').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCirc5').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, actionMessageAnimate);
+                        }
+                        if (actionMessages.length == 8) {
+                            actionProgress.attr({ strokeDasharray: '0, 820' });
+                            Snap.animate(0, 820, function (value) {
+                                actionProgress.attr({ 'stroke-dasharray': value + ',820' });
+                            }, 6000);
+                            $('#actionCircTitle1').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCircTitle2').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#actionCircTitle3').text(actionMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, actionMessageAnimate);
+                        }
+
+                    }
+                };
+
+                var actionMessages = [
+                    "Complete",
+                    "Action",
+                    "Steps",
+                    "Complete each",
+                    "item on",
+                    "your custom",
+                    "action steps",
+                    "list"
+
+                ].reverse();
+
+                var actionMessages2 = [
+                    "Complete Action",
+                    "Steps"
+                ];
+
+                $('#actionCirc1').hide();
+                $('#actionCirc2').hide();
+                $('#actionCirc3').hide();
+                $('#actionCirc4').hide();
+                $('#actionCirc5').hide();
+                $('#actionCircTitle1').hide();
+                $('#actionCircTitle2').hide();
+                $('#actionCircTitle3').hide();
+
+                actionMessageAnimate();
+            };
+            //Circle 5: Certification
+            function stageFive() {
+                certProgress.attr({ strokeDasharray: '0, 820' });
+                Snap.animate(0, 820, function (value) {
+                    certProgress.attr({ 'stroke-dasharray': value + ',820' });
+                }, 6000);
+
+                function certMessageAnimate() {
+                    if (certMessages.length <= 1) {
+                        $('#certCircTitle1').text(certMessages.pop()).fadeIn(500).delay(3000);
+                        $('#certCircTitle2').text(certMessages.pop()).fadeIn(500).delay(3000);
+                        $('#certCircTitle3').text(certMessages.pop()).fadeIn(500).delay(3000);
+                        regMessages = [
+                            "Register",
+                            "Create a new ",
+                            "account by clicking",
+                            "the yellow",
+                            "\“Register\” button"
+                        ].reverse();
+
+                        regMessages2 = [
+                            "Register"
+                        ];
+                        registerMsg();
+                    }
+                    else {
+                        $('#certCircTitle1').fadeOut(150);
+                        $('#certCircTitle2').fadeOut(150);
+                        $('#certCircTitle3').fadeOut(150);
+
+
+                        $("#regAnimated").css({ opacity: 0.5 });
+                        $("#confirmAnimated").css({ opacity: 0.5 });
+                        $("#questionaireAnimated").css({ opacity: 0.5 });
+                        $("#actionAnimated").css({ opacity: 0.5 });
+                        $("#certAnimated").css({ opacity: 1 });
+
+                        if (certMessages.length <= 7) {
+                            $('#certCirc1').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc2').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc3').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc4').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc5').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc6').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCirc7').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, certMessageAnimate);
+                        }
+                        if (certMessages.length == 10) {
+                            certProgress.attr({ strokeDasharray: '0, 820' });
+                            Snap.animate(0, 820, function (value) {
+                                certProgress.attr({ 'stroke-dasharray': value + ',820' });
+                            }, 6000);
+                            $('#certCircTitle1').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCircTitle2').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500);
+                            $('#certCircTitle3').text(certMessages.pop()).fadeIn(500).delay(3000).fadeOut(500, certMessageAnimate);
+                        }
+
+                    }
+                };
+
+                var certMessages = [
+                    "Certification",
+                    "of",
+                    "Completion",
+                    "Upon completion",
+                    "receive your",
+                    " Certificate of",
+                    "Completion and your",
+                    "ID Stay Safe™",
+                    "seal to put on",
+                    "your website",
+                ].reverse();
+
+                var certMessages2 = [
+                    "Certification",
+                    "of",
+                    "Completion"
+                ];
+
+                $('#certCirc1').hide();
+                $('#certCirc2').hide();
+                $('#certCirc3').hide();
+                $('#certCirc4').hide();
+                $('#certCirc5').hide();
+                $('#certCirc6').hide();
+                $('#certCirc7').hide();
+                $('#certCircTitle1').hide();
+                $('#certCircTitle2').hide();
+                $('#certCircTitle3').hide();
+                certMessageAnimate();
+            };
+        };
+
+
+</script>
